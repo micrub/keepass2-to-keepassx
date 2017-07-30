@@ -1,7 +1,7 @@
 KeePass2 to KeePassX Convertor
 ==============================
 
-[KeePass2](http://keepass.info/) to [KeePassX](http://www.keepassx.org) password database 
+[KeePass2](http://keepass.info/) to [KeePassX](http://www.keepassx.org) password database
 convertor.
 
 [![KeePass2 to KeePassX](http://3.bp.blogspot.com/-748wQFldpik/U7uCC-9ZAjI/AAAAAAAABhA/sPWYu_bIT2s/s400/keepass2-to-x.jpg "KeePass2 to KeePassX")](http://3.bp.blogspot.com/-748wQFldpik/U7uCC-9ZAjI/AAAAAAAABhA/sPWYu_bIT2s/s400/keepass2-to-x.jpg)
@@ -32,6 +32,19 @@ Use
 8. Delete `old-keepass2-database.xml` and `new-keepassx-database.xml` files.
 
 And that's it!
+
+
+Build
+---
+
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update && sudo apt install oracle-java8-installer
+sudo apt install oracle-java8-set-default
+sudo apt-get install maven
+mvn install
+```
+
 
 Bugs
 ----
